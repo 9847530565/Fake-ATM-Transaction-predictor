@@ -74,3 +74,9 @@ There are 3 Supervised Learning  Algorithms applied in this dataset
 * After training model using Naive Bayes Algorithm and applying it on test data the accuracy of final result was 98.1517373107497%
 
 ### Logistic Regression
+* In linear regression a straight line is drawn to catogarize values into different cateogaries.
+* But in large data a large portion of one cateogary is falling under second cateogary.So linear Regression Model is inaccurate.
+* In logistic regression we generate an exponential curve cateogarizing variables more accurately.
+* Logistic Regression Uses Sigmoidal Function to generate the output.
+* the regression equation is given by y=1/(1+e^-(tX)) where X=b0+b1x1+b2x2+b3x3+.....bnxn
+* After Applying Logistic Regression on training data and calculating output on test data , the accuracy wof result was 99.92135052386169% .
