@@ -9,13 +9,13 @@ Plots like bar graphs,scatter plot,histogram are created using this package.
 3- Pandas-> This Package is used for loading data in the form of DataFrame or Series from any type of file.
 Operations like data cleaning,data preprocessingare done with the help of pandas package.
 
-##Dataset Description
-This dataset was taken from kaggle.com website.
-The dataset contains the credit card details of a person and its records.
-This dataset has 284808 rows with 31 attributes.
-Due to security purpose the main feature names are removed and replaced with V1 to V28
-The dataset has no null values and is cleaned.
-Because of so large data, The clustering has been performed first so that more insights can be observed.
+## Dataset Description
+* This dataset was taken from kaggle.com website.
+* The dataset contains the credit card details of a person and its records.
+* This dataset has 284808 rows with 31 attributes.
+* Due to security purpose the main feature names are removed and replaced with V1 to V28
+* The dataset has no null values and is cleaned.
+* Because of so large data, The clustering has been performed first so that more insights can be observed.
 
 ## Clustering Of Data
 
