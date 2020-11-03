@@ -17,9 +17,9 @@ Due to security purpose the main feature names are removed and replaced with V1 
 The dataset has no null values and is cleaned.
 Because of so large data, The clustering has been performed first so that more insights can be observed.
 
-##Clustering Of Data
+## Clustering Of Data
 
-###KMEANS CLUSTERING
+### KMEANS CLUSTERING
 In this Clustering n number of points are considered in a plane.
 Those points which lies near to a point are placed in one cluster.
 In this Case the number of clusters taken is 2.
@@ -36,7 +36,7 @@ The graph looks like hand .The point where elbow like shape is generated is the 
 In this case the ideal value of number of custers was 2.
 Now we will apply Model on the dataset.
 
-##Machine Learning
+## Machine Learning
 In This Case the output will be in the form of whether transaction is True or False. So Classification takes place since output is categorical.
 Following are the Main steps-:
 
@@ -57,4 +57,20 @@ In this Case, Standard Scaler is applied where the standard value is the normali
 There are 3 Supervised Learning  Algorithms applied in this dataset
 
 ### SVC Classifier
-It is abbreviated as Support Vector Classifier
+*It is abbreviated as Support Vector Classifier.
+*The Idea Of SVM is to Draw a hyperplane which divides the values into two cateogaries.
+*Here the plane is drawn at centroid of the distance between two types of values.
+*The distance between the point and hyperplane is called margin.
+*Other terminologies are regularization and kernel.
+*kernel defines the type of algorithm used for calculating the distance between point and plane.
+* This Algorithm gave an accuracy of 99.54916996713575% on test data.
+
+### Naive Bayes Classifier
+*It is furthur divded into 3  types i.e Gaussian,Multinomial and Bernouli.
+*Since it is classification problem so here Gaussian is used.
+*This algorithm works on the concept of conditional probability and Bayes Theorm.
+*Here The conditional probability for both the conditions are calculated and the possibility which has higher probability is considered as output.
+* The Basic Formula is P(A/B)=(P(B/A)*P(A))/P(B) where P(A/B) is called posterior probability, P(A) is called prior probability,P(B/A) is called likelihood probability.
+* After training model using Naive Bayes Algorithm and applying it on test data the accuracy of final result was 98.1517373107497%
+
+### Logistic Regression
